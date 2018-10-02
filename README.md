@@ -1,2 +1,2 @@
-# swe-1-2-game
+# SWE_150_Project_2
 Car Racing Game
