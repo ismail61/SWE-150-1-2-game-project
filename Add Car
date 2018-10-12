@@ -12,10 +12,10 @@ int main()
     Sprite s(t);
     while(window.isOpen())
     {
-        Event evn;
-        while(window.pollEvent(evn))
+        Event event;
+        while(window.pollEvent(event))
         {
-            if(evn.type == Event::Closed)
+            if(event.type == Event::Closed)
             {
                 window.close();
             }
