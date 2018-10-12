@@ -1,0 +1,30 @@
+#include<SFML/Graphics.hpp>
+#include<SFML/Window.hpp>
+#include<SFML/System.hpp>
+#include<SFML/Network.hpp>
+using namespace sf;
+int main()
+{
+    RenderWindow window(VideoMode(800,600),"SFML Game");
+    window.setFramerateLimit(60);
+    Texture t;
+    t.loadFromFile("PRF-658.jpg");//change.....
+    Sprite s(t);
+    while(window.isOpen())
+    {
+        Event evn;
+        while(window.pollEvent(evn))
+        {
+            if(evn.type == Event::Closed)
+            {
+                window.close();
+            }
+
+        }
+
+        window.draw(s);
+        window.display();
+        window.clear();
+    }
+    return 0;
+}
