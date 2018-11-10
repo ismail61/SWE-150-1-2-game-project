@@ -75,7 +75,6 @@ int main()
     coin1.loadFromFile("pic//coin.png");
     Sprite Coin1(coin1);
     Coin1.setScale(0.2f,0.2f);
-    //Car6.rotate(60.f);
     double coin1x,coin1y;
     coin1x=coinrand(borderLeft,borderRight);
     coin1y=-500;
@@ -97,6 +96,7 @@ int main()
         Car3.setPosition(car3x,car3y);
         Car4.setPosition(car4x,car4y);
         Car5.setPosition(car5x,car5y);
+        ///Coin position setup.......
         Coin.setPosition(coinx,coiny);
         Coin1.setPosition(coin1x,coin1y);
         ///Road position  setup.....
@@ -236,8 +236,7 @@ int main()
         if (((carx>=(car5x-30)) &&(carx<=(car5x+30)))&&((cary>=(car5y-50)) &&(cary)<=(car5y+50)))
             {
                 gameover();
-            }
-        ///COIN
+             }
         window.clear();
         window.draw(s);
         window.draw(s1);
