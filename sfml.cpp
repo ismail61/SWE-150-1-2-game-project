@@ -189,28 +189,28 @@ int main()
                         {
                             if(carx>left)
                                 {
-                                    carx=carx-10;
+                                    carx=carx-15;
                                 }
                         }
                     if (event.key.code == Keyboard::Right)
                         {
                             if(carx<right)
                                 {
-                                    carx=carx+10;
+                                    carx=carx+15;
                                  }
                         }
                     if (event.key.code == Keyboard::Up)
                         {
                             if(cary>0)
                                 {
-                                    cary=cary-10;
+                                    cary=cary-15;
                                 }
                         }
                     if (event.key.code == Keyboard::Down)
                         {
                             if(cary<570)
                                 {
-                                    cary=cary+10;
+                                    cary=cary+15;
                                 }
                         }
                 }
