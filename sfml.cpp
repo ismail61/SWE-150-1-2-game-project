@@ -108,8 +108,8 @@ int main()
             y1=0;
             y2=y1-650;
         }
-        y1+=0.5;
-        y2+=0.5;
+        y1+=0.3;
+        y2+=0.3;
         ///CAR setup in road......
         if (car1y>SCREEN_HEIGHT)
             {
