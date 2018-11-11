@@ -229,7 +229,7 @@ int main()
             {
                 gameover();
             }
-        if (((carx>=(car4x-30)) &&(carx<=(car4x+30)))&&((cary>=(car4y-50)) &&(cary)<=(car4y+50)))
+        if (((carx>=(car4x-30)) &&(carx<=(car4x+30)))&&((cary>=(car4y-115)) &&(cary)<=(car4y+115)))
             {
                 gameover();
             }
