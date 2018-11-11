@@ -2,7 +2,6 @@
 #include<SFML/Audio.hpp>
 #include<SFML/Window.hpp>
 //#include<SFML/System.hpp>
-//#include<SFML/Network.hpp>
 #include<iostream>
 #include<ctime>
 #include<string>
